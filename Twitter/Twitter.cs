@@ -33,12 +33,12 @@ namespace Twitter
 
         public void addTweet(Tweet tweet)
         {
-            readTweets();
+            ReadTweets();
             this.Tweets.addTweet(tweet);
             writeTweets();
         }
 
-        public void readTweets()
+        public void ReadTweets()
         {
             try
             {
