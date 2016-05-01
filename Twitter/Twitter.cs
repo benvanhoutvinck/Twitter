@@ -57,7 +57,7 @@ namespace Twitter
                 Console.WriteLine(ex.Message);
             }
         }
-        public void writeTweets()
+        public void WriteTweets()
         {
             try
             {
